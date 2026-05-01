@@ -233,7 +233,8 @@ app.get("/api/verify-payment", async (req, res) => {
 
 // ─── START ───────────────────────────────────────────────────────────────────
 
-app.listen(PORT, () => {
+const PORT = process.env.PORT || process.env.PUERTO || 3001;
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`\n🚀 Backend Luján Logística corriendo en http://localhost:${PORT}`);
   console.log(`   MP Access Token: ${process.env.MP_ACCESS_TOKEN ? "✓ configurado" : "✗ FALTA"}`);
   console.log(`   Frontend URL:    ${process.env.FRONTEND_URL || "http://localhost:3000"}`);

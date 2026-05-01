@@ -1,0 +1,13 @@
+BACKEND_URL: https://diagnostico-logistico-backend-production.up.railway.app
+
+URLs de tu proyecto:
+
+Frontend: https://diagnostico-logistico-frontend.vercel.app
+Backend: https://diagnostico-logistico-backend-production.up.railway.app
+
+Pendiente para la próxima sesión:
+
+Configurar el webhook de MercadoPago
+Crear cuenta en Resend y activar los emails
+Probar el flujo completo de pago con la tarjeta de prueba
+Cuando todo funcione, cambiar a credenciales de producción de MP
