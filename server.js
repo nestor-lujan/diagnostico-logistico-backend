@@ -21,7 +21,6 @@ const { MercadoPagoConfig, Preference, Payment } = require("mercadopago");
 const { sendConfirmacionComprador, sendNotificacionAdmin } = require("./email");
 
 const app = express();
-const PORT = process.env.PORT || 3001;
 
 // ─── MERCADOPAGO CLIENT ──────────────────────────────────────────────────────
 
